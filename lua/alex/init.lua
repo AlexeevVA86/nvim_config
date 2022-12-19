@@ -1,5 +1,5 @@
 function R(name)
-    require("plenary.reload").reload_module(name)
+require("plenary.reload").reload_module(name)
 end
 require("alex.packer")
 require("alex.remap")
@@ -8,6 +8,7 @@ require("alex.config.thems")
 require("alex.config.mason")
 require("alex.config.lsp")
 require("alex.config.lspkind")
-
-
-
+require("alex.config.buffer")
+require("alex.config.tree")
+require("alex.config.null-ls")
+require("alex.config.mason-lspconfig")
